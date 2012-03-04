@@ -1,3 +1,12 @@
+# method
+snippet m
+	${1:void} ${2:method}(${3})
+	{
+		${4}
+	}
+# return 
+snippet re
+	return 
 # main()
 snippet main
 	int 
@@ -32,8 +41,7 @@ snippet #if
 # cleaner, I don't know how to do it in vim script)
 snippet once
 	#ifndef ${1:`toupper(Filename('', 'UNTITLED').'_'.system("/usr/bin/ruby -e 'print (rand * 2821109907455).round.to_s(36)'"))`}
-
-	#define $1
+	# define $1
 
 	${2}
 
@@ -62,7 +70,8 @@ snippet wh
 	}
 # For Loop
 snippet for
-	for (int ${2:i} = 0; $2 < ${1:count}; $2${3:++}) {
+	for (int ${2:i} = 0; $2 < ${1:count}; $2${3:++}) 
+	{
 		${4:/* code */}
 	}
 # Custom For Loop

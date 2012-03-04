@@ -1,5 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/the/.vim'
-let g:netrw_dirhist_2='/home/the/.vim/snippets'
-let g:netrw_dirhist_3='/home/the/.vim/syntax'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/the/Desktop/blogs/libgdx'
+let g:netrw_dirhist_2='/home/the/Desktop/blogs/opengl'
+let g:netrw_dirhist_3='/home/the/Desktop/blogs/android/android_tests_note.txt'
+let g:netrw_dirhist_4='/home/the/Desktop/tools/dex2jar'
+let g:netrw_dirhist_5='/home/the/Desktop/blogs/android/hjenglish'
+let g:netrw_dirhist_6='/media/S3A6588D004/source_codes/zxing-read-only/android'
+let g:netrw_dirhist_7='/home/the/Desktop/spare/android/zxingtest/src'
